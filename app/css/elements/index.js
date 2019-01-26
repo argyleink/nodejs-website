@@ -1,0 +1,5 @@
+export { body } from './body.css'
+export { header } from './header.css'
+export { nav } from './nav.css'
+export { images } from './images.css'
+export { figure } from './figure.css' 

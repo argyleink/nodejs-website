@@ -1,0 +1,14 @@
+:root {
+  --darkest-grey: hsl(0,0%,2%);
+  --darker-grey: hsl(0,0%,5%);
+  --dark-grey: hsl(0,0%,20%);
+  --grey: hsl(0,0%,50%);
+  --light-grey: hsl(0,0%,75%);
+  --lighter-grey: hsl(0,0%,93%);
+  --lightest-grey: hsl(0,0%,98%);
+
+  --brand-primary_green: hsl(98, 39%, 56%);
+  --brand-dark_green: hsl(112, 39%, 36%);
+  --brand-darker_green: hsl(127, 42%, 22%);
+  --brand-dark_grey: hsl(207, 11%, 20%);
+}

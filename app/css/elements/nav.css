@@ -1,0 +1,19 @@
+@import '../settings/colors.css';
+
+nav {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 1rem;
+  font-size: 0.8rem;
+
+  &[primary] > a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+
+    &[selected] {
+      background: var(--lightest-grey);
+    }
+  }
+}

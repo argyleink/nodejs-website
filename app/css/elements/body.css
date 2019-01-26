@@ -1,0 +1,9 @@
+@import '../settings/colors.css';
+
+body, html {
+  font-family: system-ui;
+  margin: 0;
+  min-height: 100vh;
+  background: var(--lightest-grey);
+  color: var(--darkest-grey);
+}

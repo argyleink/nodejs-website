@@ -1,0 +1,31 @@
+extends ../layouts/page
+
+block content
+  header
+    section(grid vertically-aligned='center' horizontally-distributed='between')
+      nav(primary)
+        figure.logo: img(src='/assets/node-logo.svg')
+        a(href='/' selected) Home
+        a(href='/learn') Learn
+
+      nav(secondary)
+        select
+          option v11.8.1
+          option v11.8.2
+          option v11.8.3
+          option v11.8.4
+          option v11.8.5
+        a(href='#') GitHub
+
+    section: .hero
+      figure: img(src='//imgplaceholder.com/420x320/dddddd/333333/fa-image')
+      figcaption
+        h2 
+          | Node.js® is a JavaScript runtime built on 
+          a(href='') Chrome's V8 JavaScript engine
+        .actions
+          button Download Node
+          a(button href="/learn") Learn More
+
+  //- h2
+  //-   | Example build time data: #{htmlWebpackPlugin.options.DATA.test.foo}

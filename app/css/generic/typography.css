@@ -1,0 +1,5 @@
+@import '../settings/colors.css';
+
+a {
+  color: var(--brand-primary_green);
+}

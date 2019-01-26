@@ -1,0 +1,20 @@
+@import '../settings/colors.css';
+
+header {
+  background: var(--lighter-grey);
+  color: var(--dark-grey);
+
+  display: grid;
+  grid-template-rows: auto minmax(min-content, 50vh);
+  align-items: center;
+  justify-content: center;
+
+  & > section {
+    padding: 0.5rem;
+  }
+
+  & .logo {
+    max-height: 90%;
+    max-width: 10rem;
+  }
+}
