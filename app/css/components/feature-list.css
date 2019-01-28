@@ -1,0 +1,19 @@
+@import '../settings/colors.css';
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 15rem));
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  max-width: var(--main-column-width);
+
+  & > figure {
+    text-align: center;
+
+    & > svg {
+      max-width: 3rem;
+      stroke: var(--grey);
+    }
+  }
+}
