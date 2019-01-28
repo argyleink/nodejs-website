@@ -2,11 +2,7 @@
 
 main {
   display: grid;
-  gap: 1rem;
+  gap: 6rem;
   grid-template-columns: minmax(auto, var(--main-column-width));
   justify-content: center;
-
-  & > h3 {
-    font-size: 2.3rem;
-  }
 }

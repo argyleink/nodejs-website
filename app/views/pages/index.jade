@@ -2,23 +2,10 @@ extends ../layouts/page
 
 block content
   header
-    section(grid vertically-aligned='center' horizontally-distributed='between')
-      nav(primary)
-        figure.logo: img(src='/assets/node-logo.svg')
-        a(href='/' selected) Home
-        a(href='/learn') Learn
-
-      nav(secondary)
-        select
-          option v11.8.1
-          option v11.8.2
-          option v11.8.3
-          option v11.8.4
-          option v11.8.5
-        a(href='#') GitHub
+    include ../partials/nav
 
     section: .hero
-      figure: img(intrinsic src='//imgplaceholder.com/420x320/dddddd/333333/fa-image')
+      figure: img(intrinsic src='//imgplaceholder.com/420x320/ededed/999999/fa-image')
       figcaption
         h2 
           | Node.js® is a JavaScript runtime built on 
@@ -28,26 +15,8 @@ block content
           a(button href="/learn") Learn More
   
   main
-    h3.center-text Features
-    section
-      .feature-list
-        figure
-          include ../svg/checkmark
-          figcaption
-            h4 Feature One
-            p Amazing work has already been done on the new site’s information architecture.
-
-        figure
-          include ../svg/checkmark
-          figcaption
-            h4 Feature Two
-            p Amazing work has already been done on the new site’s information architecture.
-
-        figure
-          include ../svg/checkmark
-          figcaption
-            h4 Feature Three
-            p Amazing work has already been done on the new site’s information architecture.
-  
-  //- h2
-  //-   | Example build time data: #{htmlWebpackPlugin.options.DATA.test.foo}
+    include ../partials/features
+    include ../partials/repl
+    include ../partials/newsletter
+    include ../partials/testimonial
+    include ../partials/footer

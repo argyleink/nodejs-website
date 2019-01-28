@@ -1,0 +1,25 @@
+@import '../settings/colors.css';
+
+.repl {
+  display: grid;
+  gap: 2rem;
+}
+
+.sandbox {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+
+  & > .code {
+    border: 1px solid var(--lighter-grey);
+  }
+
+  & > .conversion-indicator {
+    font-size: 3rem;
+  }
+
+  & > .result {
+    background: var(--lighter-grey);
+  }
+}
