@@ -1,4 +1,5 @@
 @import '../settings/colors.css';
+@import '../settings/sizes.css';
 
 nav {
   display: grid;
@@ -9,11 +10,15 @@ nav {
 
   &[primary] > a {
     padding: 0.5rem 0.75rem;
-    border-radius: 0.25rem;
-    text-decoration: none;
+    border-radius: var(--border-radius);
 
     &[selected] {
       background: var(--lightest-grey);
     }
+  }
+
+  & a:not(:hover) {
+    text-decoration: none;
+    color: var(--dark-grey); 
   }
 }

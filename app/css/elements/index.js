@@ -1,4 +1,5 @@
 export { body } from './body.css'
+export { main } from './main.css'
 export { header } from './header.css'
 export { nav } from './nav.css'
 export { images } from './images.css'

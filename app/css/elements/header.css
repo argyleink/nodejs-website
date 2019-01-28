@@ -1,4 +1,5 @@
 @import '../settings/colors.css';
+@import '../settings/sizes.css';
 
 header {
   background: var(--lighter-grey);
@@ -11,6 +12,7 @@ header {
 
   & > section {
     padding: 0.5rem;
+    max-width: var(--main-column-width);
   }
 
   & .logo {

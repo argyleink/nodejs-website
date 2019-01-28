@@ -1,6 +1,39 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
 button, [button] {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.75rem 1.25rem;
 
-  
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+
+  cursor: pointer;
+  position: relative;
+
+  &:active {
+    top: 1px;
+  }
+}
+
+button {
+  background: var(--brand-primary_green);
+  color: var(--brand-primary_green-text);
+  border: none;
+
+  &:hover {
+    /* background: var(--brand-dark_green); */
+  }
+}
+
+a[button] {
+  background: white;
+  border: 2px solid var(--brand-primary_green);
+  color: var(--brand-primary_green);
+
+  /* &:hover {
+    border-color: var(--brand-dark_green);
+  } */
 }

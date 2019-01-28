@@ -18,7 +18,7 @@ block content
         a(href='#') GitHub
 
     section: .hero
-      figure: img(src='//imgplaceholder.com/420x320/dddddd/333333/fa-image')
+      figure: img(intrinsic src='//imgplaceholder.com/420x320/dddddd/333333/fa-image')
       figcaption
         h2 
           | Node.js® is a JavaScript runtime built on 
@@ -26,6 +26,28 @@ block content
         .actions
           button Download Node
           a(button href="/learn") Learn More
+  
+  main
+    h3.center-text Features
+    section
+      .feature-list
+        figure
+          include ../svg/checkmark
+          figcaption
+            h4 Feature One
+            p Amazing work has already been done on the new site’s information architecture.
 
+        figure
+          include ../svg/checkmark
+          figcaption
+            h4 Feature Two
+            p Amazing work has already been done on the new site’s information architecture.
+
+        figure
+          include ../svg/checkmark
+          figcaption
+            h4 Feature Three
+            p Amazing work has already been done on the new site’s information architecture.
+  
   //- h2
   //-   | Example build time data: #{htmlWebpackPlugin.options.DATA.test.foo}
