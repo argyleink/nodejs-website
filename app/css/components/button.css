@@ -29,7 +29,7 @@ button {
 }
 
 a[button] {
-  background: white;
+  background: transparent;
   border: 2px solid var(--brand-primary_green);
   color: var(--brand-primary_green);
 

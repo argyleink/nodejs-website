@@ -1,0 +1,19 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
+.primary-nav {
+  background: var(--lighter-grey);
+  position: sticky;
+  top: 0;
+
+  & > section {
+    padding: 0.5rem;
+    max-width: var(--main-column-width);
+    margin: 0 auto;
+  }
+
+  & .logo {
+    max-height: 90%;
+    max-width: 10rem;
+  }
+}

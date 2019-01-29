@@ -6,22 +6,8 @@ header {
   color: var(--dark-grey);
 
   display: grid;
-  grid-template-rows: auto minmax(min-content, 45vmax);
+  grid-template-rows: minmax(min-content, 45vmax);
   grid-template-columns: minmax(auto, var(--main-column-width));
   align-items: center;
   justify-content: center;
-
-  & > section {
-    padding: 0.5rem;
-    max-width: var(--main-column-width);
-
-    &:first-of-type {
-      background: var(--lighter-grey);
-    }
-  }
-
-  & .logo {
-    max-height: 90%;
-    max-width: 10rem;
-  }
 }
