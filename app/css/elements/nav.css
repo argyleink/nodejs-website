@@ -5,8 +5,12 @@ nav {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  grid-gap: 1rem;
+  gap: 1rem;
   font-size: 0.8rem;
+
+  /* & > a {
+    white-space: nowrap;
+  } */
 
   &[primary] > a {
     padding: 0.25rem 0.5rem;

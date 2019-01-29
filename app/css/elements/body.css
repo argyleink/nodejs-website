@@ -8,10 +8,3 @@ body, html {
   background: white;
   color: var(--darkest-grey);
 }
-
-/* var(--main-column-width) */
-@media (width < 70rem) {
-  main {
-    padding: 1rem;
-  }
-}

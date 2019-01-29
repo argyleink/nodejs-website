@@ -16,6 +16,10 @@
   align-items: center;
   max-width: var(--main-column-width);
 
+  @media (width < 70rem) {
+    justify-content: center;
+  }
+
   & > figure {
     text-align: center;
 

@@ -6,7 +6,7 @@ header {
   color: var(--darkest-grey);
 
   display: grid;
-  grid-template-rows: minmax(min-content, 45vmax);
+  grid-template-rows: minmax(min-content, 40vmax);
   grid-template-columns: minmax(auto, var(--main-column-width));
   align-items: center;
   justify-content: center;

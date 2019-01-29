@@ -11,6 +11,11 @@
   align-items: center;
   gap: 1rem;
 
+  @media (width < 70rem) {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content auto min-content;
+  }
+
   & .code {
     padding: 1rem;
   }
@@ -19,6 +24,11 @@
     font-size: 3rem;
     font-weight: lighter;
     color: var(--brand-primary_green);
+
+    @media (width < 70rem) {
+      text-align: center;
+      transform: rotate(90deg);
+    }
   }
 
   & .output {

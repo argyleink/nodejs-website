@@ -3,6 +3,11 @@
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
   align-items: center;
+  padding: 2rem;
+
+  & h2 {
+    margin-top: 0;
+  }
 
   & .actions {
     display: inline-grid;

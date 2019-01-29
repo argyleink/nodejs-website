@@ -5,4 +5,12 @@ main {
   gap: 6rem;
   grid-template-columns: minmax(auto, var(--main-column-width));
   justify-content: center;
+
+  @media (width < 70rem) {
+    --main-column-width: 100vw;
+
+    & > section:not(.newsletter) {
+      padding: 1rem;
+    }
+  }
 }
