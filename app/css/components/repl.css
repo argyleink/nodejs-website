@@ -11,16 +11,17 @@
   align-items: center;
   gap: 1rem;
 
-  & > .code {
-    border: 1px solid var(--lighter-grey);
+  & .code {
+    padding: 1rem;
   }
 
   & > .conversion-indicator {
     font-size: 3rem;
     font-weight: lighter;
+    color: var(--brand-primary_green);
   }
 
-  & > .result {
+  & .output {
     background: var(--lighter-grey);
   }
 }

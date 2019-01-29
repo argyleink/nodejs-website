@@ -1,5 +1,5 @@
 import 'ragrid'
 import { typography, alignment } from '~/css/generic'
 import { body, header, nav, figure, images, main, footer, forms, select } from '~/css/elements'
-import { hero, button, feature_list, repl, newsletter, testimonial, input, primary_nav } from '~/css/components' 
+import { hero, button, feature_list, repl, newsletter, testimonial, input, primary_nav, code_frame } from '~/css/components' 
 import { checkmark } from '~/css/objects'

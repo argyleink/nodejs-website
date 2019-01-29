@@ -11,11 +11,24 @@ footer {
     border: none;
   }
 
+  & > nav > a:not(:hover) {
+    color: var(--darkest-grey);
+  }
+
   & > nav:last-child svg {
     width: 1rem;
   }
 
   & copyright {
     font-weight: lighter;
+
+    & ~ svg {
+      fill: var(--grey);
+      cursor: pointer;
+
+      &:hover {
+        fill: var(--brand-primary_green);
+      }
+    }
   }
 }

@@ -12,6 +12,10 @@
 
 .companies-using-node {
   padding: 3rem 0;
+
+  & > :not(:nth-child(3)) {
+    opacity: 0.25;
+  }
 }
 
 .testimonial-carousel {

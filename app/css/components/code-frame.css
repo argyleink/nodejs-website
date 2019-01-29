@@ -1,0 +1,23 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
+.code-frame {
+  border: 1px solid var(--brand-primary_green);
+  border-radius: var(--border-radius);
+
+  & > .title-bar {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    padding: 0.25rem;
+    border-bottom: 1px solid var(--brand-primary_green);
+  }
+
+  & .dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--brand-primary_green);
+  }
+}
