@@ -13,7 +13,7 @@ nav {
     border-radius: var(--border-radius);
 
     &[selected] {
-      background: var(--lightest-grey);
+      background: white;
     }
   }
 

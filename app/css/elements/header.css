@@ -3,7 +3,7 @@
 
 header {
   background: var(--lighter-grey);
-  color: var(--dark-grey);
+  color: var(--darkest-grey);
 
   display: grid;
   grid-template-rows: minmax(min-content, 45vmax);

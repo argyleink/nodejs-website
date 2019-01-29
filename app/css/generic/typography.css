@@ -11,6 +11,7 @@ a {
 h1, h2, h3 {
   font-weight: 200;
   line-height: 1.2;
+  color: var(--darkest-grey);
 }
 
 .xl-heading {

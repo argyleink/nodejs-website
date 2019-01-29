@@ -4,12 +4,13 @@
 .features {
   & h3 {
     font-size: 2.3rem;
+    color: var(--darker-grey);
   }
 }
 
 .feature-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min-content, 15rem));
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 20rem));
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
@@ -21,6 +22,19 @@
     & > svg {
       max-width: 3rem;
       stroke: var(--grey);
+    }
+
+    & > figcaption {
+      color: var(--dark-grey);
+
+      & > h4 {
+        color: var(--darker-grey);
+        margin-bottom: 0;
+      }
+
+      & > p {
+        font-size: 0.9rem;
+      }
     }
   }
 }

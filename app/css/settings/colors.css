@@ -1,7 +1,7 @@
 :root {
   --darkest-grey: hsl(0,0%,2%);
-  --darker-grey: hsl(0,0%,5%);
-  --dark-grey: hsl(0,0%,20%);
+  --darker-grey: hsl(0,0%,15%);
+  --dark-grey: hsl(0,0%,35%);
   --grey: hsl(0,0%,50%);
   --light-grey: hsl(0,0%,75%);
   --lighter-grey: hsl(0,0%,93%);

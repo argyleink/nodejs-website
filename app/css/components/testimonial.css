@@ -1,6 +1,12 @@
+@import '../settings/colors.css';
+
 .testimonial {
   & .xl-heading {
     margin: 0 0 1rem;
+  }
+
+  & small {
+    color: var(--dark-grey);
   }
 }
 
@@ -35,6 +41,11 @@
     & > p {
       margin: 0;
       font-size: 1.1rem;
+      color: var(--dark-grey);
+
+      &:before, &:after {
+        color: var(--grey);
+      }
 
       &:before {
         content: "❝";
@@ -50,10 +61,12 @@
   & summary {
     display: grid;
     grid-auto-columns: row;
+    color: var(--grey);
 
     & > b {
       font-size: 1.2rem;
       margin-bottom: 0.5rem;
+      color: var(--dark-grey);
     }
   }
 
@@ -61,5 +74,11 @@
   & > .right {
     font-size: 5rem;
     font-weight: lighter;
+    color: var(--grey);
+
+    &:hover {
+      cursor: pointer;
+      color: var(--dark-grey);
+    }
   }
 }

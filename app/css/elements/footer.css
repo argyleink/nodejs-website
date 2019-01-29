@@ -1,6 +1,7 @@
 @import '../settings/colors.css';
 
 footer {
+  font-size: 1rem;
   padding: 2rem 0;
 
   & hr {
@@ -12,5 +13,9 @@ footer {
 
   & > nav:last-child svg {
     width: 1rem;
+  }
+
+  & copyright {
+    font-weight: lighter;
   }
 }

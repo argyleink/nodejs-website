@@ -18,11 +18,13 @@
     font-weight: 300;
     font-size: 1.7rem;
     letter-spacing: 0.05em;
+    color: var(--darker-grey);
   }
 
   & > p {
     font-size: 1.1rem;
     line-height: 1.5;
     margin-bottom: 0;
+    color: var(--dark-grey);
   }
 }

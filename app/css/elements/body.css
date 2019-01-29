@@ -10,7 +10,7 @@ body, html {
 }
 
 /* var(--main-column-width) */
-@media (width < 60rem) {
+@media (width < 70rem) {
   main {
     padding: 1rem;
   }
