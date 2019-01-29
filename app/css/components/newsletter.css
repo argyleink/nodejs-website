@@ -1,0 +1,28 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+
+  background: var(--lighter-grey);
+  padding: 2rem 3rem;
+  border-radius: var(--border-radius);
+}
+
+.newsletter-invite {
+  & > h4 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 0.05em;
+  }
+
+  & > p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+}

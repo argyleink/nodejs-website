@@ -1,11 +1,5 @@
-// import $ from 'blingblingjs'
-
-// TODO: update to postcss-next-env
-
 import 'ragrid'
 import { typography, alignment } from '~/css/generic'
-import { body, header, nav, figure, images, main } from '~/css/elements'
-import { hero, button, feature_list, repl } from '~/css/components' 
+import { body, header, nav, figure, images, main, footer, forms, select } from '~/css/elements'
+import { hero, button, feature_list, repl, newsletter, testimonial, input } from '~/css/components' 
 import { checkmark } from '~/css/objects'
-
-// console.log($('header'))

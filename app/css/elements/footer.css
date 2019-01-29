@@ -1,0 +1,16 @@
+@import '../settings/colors.css';
+
+footer {
+  padding: 2rem 0;
+
+  & hr {
+    width: 1px;
+    height: 4ex;
+    background: var(--lighter-grey);
+    border: none;
+  }
+
+  & > nav:last-child svg {
+    width: 1rem;
+  }
+}

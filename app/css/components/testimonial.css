@@ -1,0 +1,65 @@
+.testimonial {
+  & .xl-heading {
+    margin: 0 0 1rem;
+  }
+}
+
+.companies-using-node {
+  padding: 3rem 0;
+}
+
+.testimonial-carousel {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+
+  & > .statements {
+    display: grid;
+    overflow-x: auto;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    scroll-snap-type: x mandatory;
+  }
+
+  & blockquote {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    max-width: 60ch;
+    margin: 0 auto;
+    padding: 1rem 0;
+    text-align: center;
+    box-sizing: border-box;
+    scroll-snap-align: center;
+
+    & > p {
+      margin: 0;
+      font-size: 1.1rem;
+
+      &:before {
+        content: "❝";
+        margin-right: 0.25rem;
+      }
+      &:after {
+        content: "❞";
+        margin-left: 0.25rem;
+      }
+    }
+  }
+
+  & summary {
+    display: grid;
+    grid-auto-columns: row;
+
+    & > b {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  & > .left,
+  & > .right {
+    font-size: 5rem;
+    font-weight: lighter;
+  }
+}

@@ -1,4 +1,5 @@
 @import '../settings/colors.css';
+@import '../settings/sizes.css';
 
 .features {
   & h3 {

@@ -17,6 +17,7 @@
 
   & > .conversion-indicator {
     font-size: 3rem;
+    font-weight: lighter;
   }
 
   & > .result {

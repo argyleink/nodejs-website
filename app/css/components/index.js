@@ -1,4 +1,7 @@
 export { hero } from './hero.css'
 export { button } from './button.css'
+export { input } from './nice-input.css'
 export { repl } from './repl.css'
+export { newsletter } from './newsletter.css'
+export { testimonial } from './testimonial.css'
 export { feature_list } from './feature-list.css'

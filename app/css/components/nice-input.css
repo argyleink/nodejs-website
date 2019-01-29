@@ -1,0 +1,34 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
+.nice-input {
+  height: 3.5rem;
+  display: grid;
+  grid-template-columns: 2.5rem 2fr 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+
+  background: white;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+
+  & > svg {
+    width: 1rem;
+    justify-self: center;
+  }
+
+  & > input {
+    caret-color: var(--brand-primary_green);
+    appearance: none;
+    background: transparent;
+    border: none;
+    height: 100%;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  & > button {
+    height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
