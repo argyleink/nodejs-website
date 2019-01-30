@@ -10,6 +10,21 @@ footer {
 
   @media (width < 70rem) {
     justify-content: center;
+
+    & > nav:first-child {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 1rem;
+
+      & > a {
+        padding: 0.25rem;
+      }
+    }
+
+    & > nav > hr {
+      display: none;
+    }
   }
 
   & hr {
@@ -21,10 +36,6 @@ footer {
 
   & > nav > a:not(:hover) {
     color: var(--darkest-grey);
-  }
-
-  & > nav:first-child {
-    grid-template-columns: auto;
   }
 
   & > nav:last-child svg {

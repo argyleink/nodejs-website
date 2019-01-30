@@ -4,6 +4,7 @@
 .code-frame {
   border: 1px solid var(--brand-primary_green);
   border-radius: var(--border-radius);
+  overflow: hidden;
 
   & > .title-bar {
     display: grid;

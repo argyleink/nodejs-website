@@ -8,9 +8,9 @@ nav {
   gap: 1rem;
   font-size: 0.8rem;
 
-  /* & > a {
+  & > a {
     white-space: nowrap;
-  } */
+  }
 
   &[primary] > a {
     padding: 0.25rem 0.5rem;
