@@ -1,0 +1,8 @@
+@import '../settings/colors.css';
+
+aside {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 2rem 1rem;
+}

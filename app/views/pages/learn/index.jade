@@ -1,7 +1,44 @@
 extends ../../layouts/page
 
 append config
-  - var pageTitle = 'Learn'
+  - var pageTitle = 'Learn (dev)'
 
 block content
-  h2 Learn
+  article
+    include ../../partials/sidebar
+    include ../../partials/nav
+    
+    main
+      header
+        section: .guide-hero
+          figure: img(intrinsic src='//imgplaceholder.com/420x320/ededed/999999/fa-image')
+          figcaption.center-text
+            h2.xl-heading Hello World Server
+            small Your first steps into the world of Node.js
+
+      h1 Chocolate jujubes cupcake pastry marshmallow I love donut dessert. Tart chupa chups I love jujubes powder biscuit pastry I love. 
+      p Chocolate jujubes cupcake pastry marshmallow I love donut dessert. Tart chupa chups I love jujubes powder biscuit pastry I love. Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+      
+      hr
+      
+      ol
+        li
+          h3 Item One
+          p Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+        li
+          h3 Item Two
+          p Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+        li
+          h3 Item Three
+          p Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+
+      hr
+
+      include ../../partials/repl
+
+      h1 Chocolate jujubes cupcake pastry marshmallow I love donut dessert. Tart chupa chups I love jujubes powder biscuit pastry I love. 
+      p Chocolate jujubes cupcake pastry marshmallow I love donut dessert. Tart chupa chups I love jujubes powder biscuit pastry I love. Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+      img(src='//imgplaceholder.com/1024x520/ededed/999999/fa-image')      
+      p Chocolate jujubes cupcake pastry marshmallow I love donut dessert. Tart chupa chups I love jujubes powder biscuit pastry I love. Marshmallow dessert gingerbread macaroon toffee marshmallow. Marzipan pudding chocolate bar. Wafer brownie halvah pie cotton candy cheesecake.
+
+      include ../../partials/footer

@@ -1,0 +1,21 @@
+@import '../settings/colors.css';
+
+ol {
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: row;
+
+  & > li > :matches(h1,h2,h3) {
+    margin-top: 0;
+    color: var(--darker-grey);
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  & > li > p {
+    margin-bottom: 0;
+    color: var(--dark-grey);
+    font-size: 0.8rem;
+  }
+}

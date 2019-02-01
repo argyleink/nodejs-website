@@ -1,0 +1,55 @@
+@import '../settings/colors.css';
+@import '../settings/sizes.css';
+
+.guide-list {
+  margin: 0;
+
+  &:first-of-type {
+    margin-bottom: 3rem;
+  }
+
+  & dt {
+    color: var(--darkest-grey);
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius);
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+      background: var(--lighter-grey);
+      --check-color: hsl(98, 39%, 56%);
+    }
+
+    &:not(:first-child):before {
+      content: " ";
+      display: block;
+      position: absolute;
+      bottom: 2.5rem;
+      left: 1.7rem;
+      width: 2px;
+      height: 1rem;
+      background: hsl(98, 39%, 56%);
+      background: var(--brand-primary_green);
+    }
+
+    & > svg {
+      --check-color: none;
+      --border-color: var(--brand-primary_green);
+      --fill-color: none;
+
+      stroke-width: 12px;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 0.75rem;
+    }
+
+    &[completed] > svg {
+      stroke-width: 5px;
+      --check-color: white;
+      --border-color: white;
+      --fill-color: var(--brand-primary_green);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '../settings/colors.css';
+
+.guide-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+
+  & h2 {
+    margin: 0 0 0.5rem;
+    color: var(--darker-grey);
+  }
+
+  & small {
+    font-size: 1rem;
+    color: var(--dark-grey);
+  }
+}

@@ -1,0 +1,22 @@
+aside
+  h2.l-heading Quick Start
+  dl.guide-list
+    +guide-list-item('What is Node.js?', true)
+    +guide-list-item('Installing Node.js', true)
+    +guide-list-item('Hello World Server', true)
+    +guide-list-item('Modules')
+
+  h2.l-heading Advanced Guides
+  dl.guide-list
+    +guide-list-item('The Event Loop')
+    +guide-list-item('Anatomy of an HTTP Transaction')
+    +guide-list-item('Blocking vs Non-Blocking')
+    +guide-list-item('Debugger')
+    +guide-list-item('Internationalization')
+    +guide-list-item('Tracing')
+    +guide-list-item('Backpressuring in Streams')
+    +guide-list-item('Publishing an N-API Package')
+
+  svg(style='display:none'): symbol#checkmark(viewBox='0 0 128 128' style='stroke: var(--border-color);')
+    circle(cx='64', cy='64', r='59.4' style='fill: var(--fill-color);')
+    path(d='M24.75 62l27.5 27.5 51-51' style='stroke: var(--check-color); fill:none;')
