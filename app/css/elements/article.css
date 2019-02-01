@@ -29,8 +29,8 @@ article {
     gap: 2rem;
     grid-template-columns: 1fr;
 
-    & > :nth-child(2) {
-      margin-top: 4rem;
+    & > header {
+      margin-bottom: 4rem;
     }
 
     & > :matches(h1, h2, h3, h4, h5, h6, p) {
@@ -54,5 +54,13 @@ article {
     & > footer {
       margin: 10rem 3rem 0;
     }
+  }
+
+  @media (width < 70rem) {
+    grid-template-columns: 1fr;
+
+    & > aside         { grid-row: 3; }
+    & > .primary-nav  { grid-row: 1; grid-column: 1; }
+    & > main          { grid-row: 2; grid-column: 1; }
   }
 }
