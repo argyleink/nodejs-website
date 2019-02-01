@@ -10,11 +10,14 @@
 
   & dt {
     color: var(--darkest-grey);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1.5rem 1fr;
+    gap: 0.75rem;
     align-items: center;
     padding: 0.75rem 1rem;
     border-radius: var(--border-radius);
     position: relative;
+    line-height: 1.5;
 
     &:hover {
       cursor: pointer;
@@ -22,14 +25,14 @@
       --check-color: hsl(98, 39%, 56%);
     }
 
-    &:not(:first-child):before {
+    &:not(:last-child):before {
       content: " ";
       display: block;
       position: absolute;
-      bottom: 2.5rem;
+      top: 2.5rem;
       left: 1.7rem;
       width: 2px;
-      height: 1rem;
+      height: calc(100% - 2rem);
       background: hsl(98, 39%, 56%);
       background: var(--brand-primary_green);
     }
@@ -42,7 +45,7 @@
       stroke-width: 12px;
       width: 1.5rem;
       height: 1.5rem;
-      margin-right: 0.75rem;
+      align-self: flex-start;
     }
 
     &[completed] > svg {
